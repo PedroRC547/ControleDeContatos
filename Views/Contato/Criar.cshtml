@@ -1,10 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Listagem de contatos";
+    ViewData["Title"] = "Criar contato";
 }
 
 <div class="text-center">
 
-    <h1 class="display-4">Cadastrar contato</h1>
+    <h1 class="display-4">Criar contato</h1>
 
 </div>
 
@@ -23,5 +23,6 @@
         <input type="text" class="form-control" placeholder="Digite o celular do contato">
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
+    <a class="btn btn-secondary btn-block" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
 </form>
